@@ -2,17 +2,40 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.general_title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
 .brand_logo {
     width: 200px;
+}
+
+.curved-background__curved {
+    background: linear-gradient(rgba(251, 230, 4, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%);
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+    height: 50%;
+    width: 100%;
+}
+
+.send_email {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.submit_btn {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+    font-size: 12px;
 }
